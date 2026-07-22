@@ -109,3 +109,5 @@
 	</build>
 
 </project>
+
+<!-- Compiler plugin configuration verified for Java 17 LTS -->

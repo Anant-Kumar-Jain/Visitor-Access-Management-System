@@ -292,3 +292,6 @@ a:hover {
     font-size: 0.9rem !important;
     color: #888888 !important;
 }
+
+/* Badge and Button Utilities */
+.btn-custom { border-radius: 8px; font-weight: 500; }

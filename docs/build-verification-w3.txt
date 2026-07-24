@@ -1,0 +1,23 @@
+================================================================================
+MAVEN WRAPPER BUILD VERIFICATION LOG - WEEK 3 SCAFFOLDING
+Execution Date: 2026-07-24 10:30:15 IST
+Java Version: 17.0.10 (Eclipse Adoptium)
+================================================================================
+[INFO] Scanning for projects...
+[INFO] -----------------------< com.vams:vams-project >------------------------
+[INFO] Building VAMS - Visitor Access Management System 1.0.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:resources (default-resources) @ vams-project ---
+[INFO] Copying 15 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ vams-project ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 12 source files with javac [debug target 17] to target/classes
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.184 s
+[INFO] Finished at: 2026-07-24T10:30:18+05:30
+================================================================================

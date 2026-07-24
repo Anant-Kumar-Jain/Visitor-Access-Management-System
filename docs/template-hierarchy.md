@@ -18,3 +18,5 @@ templates/
   ├── scanner/scan.html (Guard WebRTC camera scanner)
   └── owner/dashboard.html (Administrative occupancy & gates)
 ```
+
+- Navbar: Logo, Role Badge, Notifications, User Dropdown, Logout.

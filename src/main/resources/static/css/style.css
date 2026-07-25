@@ -295,3 +295,5 @@ a:hover {
 
 /* Badge and Button Utilities */
 .btn-custom { border-radius: 8px; font-weight: 500; }
+
+@media (-webkit-min-device-pixel-ratio: 2) { body { -webkit-font-smoothing: antialiased; } }

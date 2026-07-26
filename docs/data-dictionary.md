@@ -57,3 +57,5 @@ High-volume audit trail of every physical barcode scan attempt.
 | `scan_type` | VARCHAR(20) | NOT NULL | Enum: ENTRY, EXIT |
 | `scan_time` | DATETIME | NOT NULL, INDEX | Exact scan timestamp |
 | `status` | VARCHAR(50) | NOT NULL | ACCESS_GRANTED or specific denial reason |
+
+- Tables: users, gates, gate_permissions, access_requests, scan_logs.

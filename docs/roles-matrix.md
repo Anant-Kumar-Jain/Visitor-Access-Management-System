@@ -5,3 +5,5 @@
 - STAFF: Facility access
 
 - Hierarchy: ROLE_OWNER > ROLE_MANAGER > ROLE_STAFF > ROLE_GUEST.
+
+- Added enabled boolean flag to block banned accounts.

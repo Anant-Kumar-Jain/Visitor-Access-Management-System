@@ -297,3 +297,6 @@ a:hover {
 .btn-custom { border-radius: 8px; font-weight: 500; }
 
 @media (-webkit-min-device-pixel-ratio: 2) { body { -webkit-font-smoothing: antialiased; } }
+
+/* Password Eye Toggle */
+.password-toggle { cursor: pointer; position: absolute; right: 12px; top: 38px; }

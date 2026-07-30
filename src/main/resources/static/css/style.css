@@ -300,3 +300,6 @@ a:hover {
 
 /* Password Eye Toggle */
 .password-toggle { cursor: pointer; position: absolute; right: 12px; top: 38px; }
+
+/* Password Strength Meter */
+.strength-bar { height: 4px; border-radius: 2px; transition: width 0.3s; }

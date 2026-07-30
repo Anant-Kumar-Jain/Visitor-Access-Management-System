@@ -59,3 +59,5 @@ High-volume audit trail of every physical barcode scan attempt.
 | `status` | VARCHAR(50) | NOT NULL | ACCESS_GRANTED or specific denial reason |
 
 - Tables: users, gates, gate_permissions, access_requests, scan_logs.
+
+- Added UserRepository derived methods for email lookups.

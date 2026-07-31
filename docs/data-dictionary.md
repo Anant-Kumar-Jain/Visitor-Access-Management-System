@@ -61,3 +61,5 @@ High-volume audit trail of every physical barcode scan attempt.
 - Tables: users, gates, gate_permissions, access_requests, scan_logs.
 
 - Added UserRepository derived methods for email lookups.
+
+- Added UserRepository findByRole for manager lists.

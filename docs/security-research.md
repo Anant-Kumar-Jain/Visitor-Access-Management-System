@@ -5,3 +5,5 @@ Evaluating SecurityFilterChain and BCryptPasswordEncoder for VAMS.
 - CSRF Tokens: CookieCsrfTokenRepository
 
 - BCrypt strength set to 12 rounds for balanced security/latency.
+
+- SimpleGrantedAuthority mapped with 'ROLE_' prefix.

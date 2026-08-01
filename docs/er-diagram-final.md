@@ -11,3 +11,5 @@
 - `AccessRequest (N) ── (M) Gate`: Many-to-many relationship mapped via `GatePermission` bridge entity.
 
 - Gate: name (varchar 100, not null), location (varchar 255).
+
+- ScanLog createdAt auto-populated using LocalDateTime.now().

@@ -12,3 +12,5 @@
 - `GatePermission`: Associates access requests with permitted gates.
 
 - Documented all enum values and security authority bindings.
+
+- Javadoc added for CustomUserDetails and CustomUserDetailsService.

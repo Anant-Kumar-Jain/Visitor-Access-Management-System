@@ -6,3 +6,5 @@ Mapping 1:N relations between Users and AccessRequests.
 - ScanLog has @ManyToOne mapping to User.
 
 - ScanLog has @ManyToOne mapping to Gate.
+
+- AccessRequest maps @ManyToOne to visitor User and permitted Gate.

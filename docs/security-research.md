@@ -7,3 +7,5 @@ Evaluating SecurityFilterChain and BCryptPasswordEncoder for VAMS.
 - BCrypt strength set to 12 rounds for balanced security/latency.
 
 - SimpleGrantedAuthority mapped with 'ROLE_' prefix.
+
+- Public: /css/**, /js/**, /images/**, /login, /register, /verify

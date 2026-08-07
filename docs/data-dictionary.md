@@ -63,3 +63,5 @@ High-volume audit trail of every physical barcode scan attempt.
 - Added UserRepository derived methods for email lookups.
 
 - Added UserRepository findByRole for manager lists.
+
+- Added derived methods for pending visitor pass queries.

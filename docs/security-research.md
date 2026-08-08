@@ -9,3 +9,5 @@ Evaluating SecurityFilterChain and BCryptPasswordEncoder for VAMS.
 - SimpleGrantedAuthority mapped with 'ROLE_' prefix.
 
 - Public: /css/**, /js/**, /images/**, /login, /register, /verify
+
+- Logout invalidates HTTP session and clears security context.

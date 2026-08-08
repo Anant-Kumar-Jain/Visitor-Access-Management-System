@@ -9,3 +9,5 @@
 - Added getId(), getFullName(), and getAccessLevel() getters.
 
 - Registration checks for duplicate email and redirects with error alert.
+
+- Owner -> /owner/dashboard, Manager -> /manager/dashboard, Guest -> /dashboard

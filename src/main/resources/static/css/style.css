@@ -308,3 +308,5 @@ a:hover {
 
 /* Alert Enhancements */
 .alert-dismissible { border-left: 4px solid; }
+
+.btn-resend[disabled] { opacity: 0.6; cursor: not-allowed; }

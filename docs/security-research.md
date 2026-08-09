@@ -11,3 +11,5 @@ Evaluating SecurityFilterChain and BCryptPasswordEncoder for VAMS.
 - Public: /css/**, /js/**, /images/**, /login, /register, /verify
 
 - Logout invalidates HTTP session and clears security context.
+
+- Unauthenticated requests to secured routes redirected to /login?expired

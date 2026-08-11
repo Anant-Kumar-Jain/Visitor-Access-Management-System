@@ -310,3 +310,6 @@ a:hover {
 .alert-dismissible { border-left: 4px solid; }
 
 .btn-resend[disabled] { opacity: 0.6; cursor: not-allowed; }
+
+/* Visitor Pass Card */
+.pass-card { background: #ffffff; border-radius: 16px; box-shadow: 0 10px 25px rgba(0,0,0,0.08); }

@@ -13,3 +13,5 @@ Evaluating SecurityFilterChain and BCryptPasswordEncoder for VAMS.
 - Logout invalidates HTTP session and clears security context.
 
 - Unauthenticated requests to secured routes redirected to /login?expired
+
+- Interceptor excludes /css/**, /js/**, /images/**, /logout.

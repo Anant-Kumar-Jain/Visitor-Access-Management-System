@@ -11,3 +11,5 @@
 - Registration checks for duplicate email and redirects with error alert.
 
 - Owner -> /owner/dashboard, Manager -> /manager/dashboard, Guest -> /dashboard
+
+- Added secure UUID token generation with 15-minute expiry.

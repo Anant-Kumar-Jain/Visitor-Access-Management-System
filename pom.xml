@@ -111,3 +111,5 @@
 </project>
 
 <!-- Compiler plugin configuration verified for Java 17 LTS -->
+
+<!-- ZXing QR Code Core & JavaSE dependencies verified -->

@@ -13,3 +13,5 @@
 - Owner -> /owner/dashboard, Manager -> /manager/dashboard, Guest -> /dashboard
 
 - Added secure UUID token generation with 15-minute expiry.
+
+- POST /forgot-password verifies token before updating password.

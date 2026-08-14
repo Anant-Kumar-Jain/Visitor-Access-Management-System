@@ -15,3 +15,5 @@ Evaluating SecurityFilterChain and BCryptPasswordEncoder for VAMS.
 - Unauthenticated requests to secured routes redirected to /login?expired
 
 - Interceptor excludes /css/**, /js/**, /images/**, /logout.
+
+- Applied HTML escape sanitization on fullName and email parameters.

@@ -67,3 +67,5 @@ High-volume audit trail of every physical barcode scan attempt.
 - Added derived methods for pending visitor pass queries.
 
 - Added findByAccessLevel to GateRepository.
+
+- Added ScanLogRepository date range query for daily reporting.

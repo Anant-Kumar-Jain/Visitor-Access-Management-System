@@ -23,3 +23,5 @@ VAMS|v1|<requestId>|<visitorId>|<validUntilEpoch>|<hmacSha256Signature>
    - Verify visitor clearance level $\ge$ gate clearance level.
    - Verify anti-passback rule.
 5. Record outcome to `scan_logs` and return JSON result to scanner viewport.
+
+- QRService encrypts pass tokens using 256-bit AES cipher.

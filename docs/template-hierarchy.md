@@ -20,3 +20,5 @@ templates/
 ```
 
 - Navbar: Logo, Role Badge, Notifications, User Dropdown, Logout.
+
+- Added client-side download QR button using html5 download attribute.

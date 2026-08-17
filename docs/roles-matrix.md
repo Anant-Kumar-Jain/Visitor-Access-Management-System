@@ -7,3 +7,5 @@
 - Hierarchy: ROLE_OWNER > ROLE_MANAGER > ROLE_STAFF > ROLE_GUEST.
 
 - Added enabled boolean flag to block banned accounts.
+
+- SECURITY role authorized for /scanner/** camera endpoints.

@@ -17,3 +17,5 @@ Evaluating SecurityFilterChain and BCryptPasswordEncoder for VAMS.
 - Interceptor excludes /css/**, /js/**, /images/**, /logout.
 
 - Applied HTML escape sanitization on fullName and email parameters.
+
+- Scans rejected if token timestamp exceeds validUntil bounds.

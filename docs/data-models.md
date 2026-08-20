@@ -12,3 +12,5 @@ Mapping 1:N relations between Users and AccessRequests.
 - ValidityType calculates validUntil: 1 hour, 1 day, 1 week, 1 month.
 
 - Added revokePass method setting status to REVOKED.
+
+- ScannerService.ScanResult: success boolean, message, timestamp, scanLog.

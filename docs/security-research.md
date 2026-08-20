@@ -19,3 +19,5 @@ Evaluating SecurityFilterChain and BCryptPasswordEncoder for VAMS.
 - Applied HTML escape sanitization on fullName and email parameters.
 
 - Scans rejected if token timestamp exceeds validUntil bounds.
+
+- Anti-passback: Reject ENTRY if user status is already INSIDE.

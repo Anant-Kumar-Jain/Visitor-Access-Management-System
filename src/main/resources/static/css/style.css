@@ -324,3 +324,7 @@ a:hover {
 
 /* Camera Selector */
 .camera-select { max-width: 300px; margin: 10px auto; }
+
+/* Scanner Flash FX */
+.scan-grant { background-color: #dcfce7; border-color: #22c55e; }
+.scan-deny { background-color: #fee2e2; border-color: #ef4444; }

@@ -25,3 +25,5 @@ VAMS|v1|<requestId>|<visitorId>|<validUntilEpoch>|<hmacSha256Signature>
 5. Record outcome to `scan_logs` and return JSON result to scanner viewport.
 
 - QRService encrypts pass tokens using 256-bit AES cipher.
+
+- HMAC-SHA256 signature checked before querying database.

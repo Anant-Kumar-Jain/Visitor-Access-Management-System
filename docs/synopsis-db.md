@@ -20,3 +20,5 @@ The Visitor Access Management System (VAMS) replaces inefficient and vulnerable 
 4. Deliver high-speed scanning performance with sub-200ms verification latency.
 
 - Isolation: READ_COMMITTED to prevent dirty reads during scan verification.
+
+- @Transactional ensures ScanLog is written even if gate hardware triggers error.

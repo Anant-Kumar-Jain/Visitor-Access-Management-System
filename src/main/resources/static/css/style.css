@@ -331,3 +331,5 @@ a:hover {
 
 /* Scanner Reticle */
 .scan-reticle { width: 240px; height: 240px; border: 2px dashed #3b82f6; border-radius: 12px; margin: auto; }
+
+.fullscreen-scanner { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: 9999; }

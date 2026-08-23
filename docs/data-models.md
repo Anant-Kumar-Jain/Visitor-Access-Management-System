@@ -14,3 +14,5 @@ Mapping 1:N relations between Users and AccessRequests.
 - Added revokePass method setting status to REVOKED.
 
 - ScannerService.ScanResult: success boolean, message, timestamp, scanLog.
+
+- Gate current_occupancy counter updated on ENTRY (+) and EXIT (-).

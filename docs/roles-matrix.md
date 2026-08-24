@@ -9,3 +9,5 @@
 - Added enabled boolean flag to block banned accounts.
 
 - SECURITY role authorized for /scanner/** camera endpoints.
+
+- /manager/** endpoints restricted to MANAGER and OWNER roles.

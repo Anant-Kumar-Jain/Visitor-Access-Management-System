@@ -15,3 +15,5 @@
 - Added secure UUID token generation with 15-minute expiry.
 
 - POST /forgot-password verifies token before updating password.
+
+- Session invalidation triggered when user access privileges change.

@@ -23,3 +23,5 @@ Evaluating SecurityFilterChain and BCryptPasswordEncoder for VAMS.
 - Anti-passback: Reject ENTRY if user status is already INSIDE.
 
 - Added business rule preventing self-approval of visitor requests.
+
+- Bulk approval POST guarded with CSRF form validation.

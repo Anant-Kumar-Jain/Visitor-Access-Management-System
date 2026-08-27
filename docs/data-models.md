@@ -16,3 +16,5 @@ Mapping 1:N relations between Users and AccessRequests.
 - ScannerService.ScanResult: success boolean, message, timestamp, scanLog.
 
 - Gate current_occupancy counter updated on ENTRY (+) and EXIT (-).
+
+- ManagerService generates QR token upon approval and sets validUntil.

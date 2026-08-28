@@ -18,3 +18,5 @@ Mapping 1:N relations between Users and AccessRequests.
 - Gate current_occupancy counter updated on ENTRY (+) and EXIT (-).
 
 - ManagerService generates QR token upon approval and sets validUntil.
+
+- ManagerService records rejection reason and sends email notification.

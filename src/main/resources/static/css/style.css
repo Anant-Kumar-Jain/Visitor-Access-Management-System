@@ -338,3 +338,5 @@ a:hover {
 
 /* Rejection Modal */
 .modal-rejection { border-radius: 12px; }
+
+.nav-badge { font-size: 0.75rem; padding: 2px 6px; border-radius: 10px; }

@@ -71,3 +71,5 @@ High-volume audit trail of every physical barcode scan attempt.
 - Added ScanLogRepository date range query for daily reporting.
 
 - findTopByUserIdOrderByScanTimeDesc to check if user is INSIDE or OUTSIDE.
+
+- SystemLog captures manager_id, action (APPROVE/REJECT), target_user_id.

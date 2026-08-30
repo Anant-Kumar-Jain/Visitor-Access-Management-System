@@ -340,3 +340,6 @@ a:hover {
 .modal-rejection { border-radius: 12px; }
 
 .nav-badge { font-size: 0.75rem; padding: 2px 6px; border-radius: 10px; }
+
+/* Toast FX */
+.toast-success { border-left: 4px solid #22c55e; }

@@ -20,3 +20,5 @@ Mapping 1:N relations between Users and AccessRequests.
 - ManagerService generates QR token upon approval and sets validUntil.
 
 - ManagerService records rejection reason and sends email notification.
+
+- ManagerService bulkApprove iterates over IDs in single transaction.

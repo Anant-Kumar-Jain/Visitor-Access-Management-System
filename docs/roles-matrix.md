@@ -13,3 +13,5 @@
 - /manager/** endpoints restricted to MANAGER and OWNER roles.
 
 - /employee/** routes require authenticated user with role STAFF or above.
+
+- Guarded /owner/** routes with strict PreAuthorize("hasRole('OWNER')").

@@ -25,3 +25,5 @@ Evaluating SecurityFilterChain and BCryptPasswordEncoder for VAMS.
 - Added business rule preventing self-approval of visitor requests.
 
 - Bulk approval POST guarded with CSRF form validation.
+
+- Admin accounts require minimum 8 characters with digit and special symbol.

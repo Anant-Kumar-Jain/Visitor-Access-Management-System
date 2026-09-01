@@ -343,3 +343,6 @@ a:hover {
 
 /* Toast FX */
 .toast-success { border-left: 4px solid #22c55e; }
+
+/* KPI Cards */
+.kpi-card { border-left: 4px solid #3b82f6; padding: 1.25rem; border-radius: 10px; }

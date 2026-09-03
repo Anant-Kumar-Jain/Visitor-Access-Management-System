@@ -73,3 +73,5 @@ High-volume audit trail of every physical barcode scan attempt.
 - findTopByUserIdOrderByScanTimeDesc to check if user is INSIDE or OUTSIDE.
 
 - SystemLog captures manager_id, action (APPROVE/REJECT), target_user_id.
+
+- Added derived count query on ScanLog to determine current premise occupancy.

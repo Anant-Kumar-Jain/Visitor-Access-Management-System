@@ -27,3 +27,5 @@ Evaluating SecurityFilterChain and BCryptPasswordEncoder for VAMS.
 - Bulk approval POST guarded with CSRF form validation.
 
 - Admin accounts require minimum 8 characters with digit and special symbol.
+
+- Admin modifications record remote IP address in SystemLog.

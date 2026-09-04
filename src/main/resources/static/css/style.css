@@ -346,3 +346,6 @@ a:hover {
 
 /* KPI Cards */
 .kpi-card { border-left: 4px solid #3b82f6; padding: 1.25rem; border-radius: 10px; }
+
+/* Gate Toggle Switch */
+.switch-gate { position: relative; display: inline-block; width: 44px; height: 24px; }

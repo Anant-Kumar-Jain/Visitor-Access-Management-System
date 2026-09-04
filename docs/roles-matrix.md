@@ -15,3 +15,5 @@
 - /employee/** routes require authenticated user with role STAFF or above.
 
 - Guarded /owner/** routes with strict PreAuthorize("hasRole('OWNER')").
+
+- Guarded against self-demotion to avoid locking out the system.

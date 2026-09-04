@@ -22,3 +22,5 @@ Mapping 1:N relations between Users and AccessRequests.
 - ManagerService records rejection reason and sends email notification.
 
 - ManagerService bulkApprove iterates over IDs in single transaction.
+
+- Added createGate, updateGate, and toggleGateStatus methods.

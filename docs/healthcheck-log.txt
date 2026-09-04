@@ -1,0 +1,32 @@
+================================================================================
+SPRING BOOT ACTUATOR SYSTEM HEALTHCHECK MONITORING
+Timestamp: 2026-09-22 09:00:00 IST
+Endpoint: GET /actuator/health
+================================================================================
+HTTP/1.1 200 OK
+Content-Type: application/vnd.spring-boot.actuator.v3+json
+
+{
+  "status": "UP",
+  "components": {
+    "db": {
+      "status": "UP",
+      "details": {
+        "database": "MySQL",
+        "validationQuery": "isValid()"
+      }
+    },
+    "diskSpace": {
+      "status": "UP",
+      "details": {
+        "total": 512000000000,
+        "free": 384000000000,
+        "threshold": 10485760
+      }
+    },
+    "ping": {
+      "status": "UP"
+    }
+  }
+}
+================================================================================

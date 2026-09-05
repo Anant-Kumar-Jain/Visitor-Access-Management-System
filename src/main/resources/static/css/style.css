@@ -349,3 +349,5 @@ a:hover {
 
 /* Gate Toggle Switch */
 .switch-gate { position: relative; display: inline-block; width: 44px; height: 24px; }
+
+.data-table-search { max-width: 280px; border-radius: 20px; padding: 6px 14px; }

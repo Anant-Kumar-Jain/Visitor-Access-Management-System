@@ -24,3 +24,5 @@ Mapping 1:N relations between Users and AccessRequests.
 - ManagerService bulkApprove iterates over IDs in single transaction.
 
 - Added createGate, updateGate, and toggleGateStatus methods.
+
+- Soft-delete pattern implemented for user deactivation.

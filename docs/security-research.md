@@ -29,3 +29,5 @@ Evaluating SecurityFilterChain and BCryptPasswordEncoder for VAMS.
 - Admin accounts require minimum 8 characters with digit and special symbol.
 
 - Admin modifications record remote IP address in SystemLog.
+
+- Verified that URL tampering cannot elevate guest session to manager.

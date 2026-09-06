@@ -26,3 +26,5 @@ Mapping 1:N relations between Users and AccessRequests.
 - Added createGate, updateGate, and toggleGateStatus methods.
 
 - Soft-delete pattern implemented for user deactivation.
+
+- DataInitializer checks userRepository.count() to ensure idempotency.

@@ -13,3 +13,6 @@ services:
       - "8080:8080"
     depends_on:
       - db
+
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/actuator/health"]

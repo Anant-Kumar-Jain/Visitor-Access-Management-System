@@ -31,3 +31,5 @@ Evaluating SecurityFilterChain and BCryptPasswordEncoder for VAMS.
 - Admin modifications record remote IP address in SystemLog.
 
 - Verified that URL tampering cannot elevate guest session to manager.
+
+- CSP header added to prevent inline script execution.

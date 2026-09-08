@@ -28,3 +28,5 @@ Mapping 1:N relations between Users and AccessRequests.
 - Soft-delete pattern implemented for user deactivation.
 
 - DataInitializer checks userRepository.count() to ensure idempotency.
+
+- REST API returns { success: true/false, message: str, userName: str }

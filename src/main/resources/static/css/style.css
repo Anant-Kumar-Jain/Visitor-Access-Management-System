@@ -353,3 +353,6 @@ a:hover {
 .data-table-search { max-width: 280px; border-radius: 20px; padding: 6px 14px; }
 
 .occupancy-meter { height: 12px; border-radius: 6px; background-color: #e2e8f0; }
+
+/* Audit Filter Bar */
+.audit-filter-bar { background: #f1f5f9; padding: 12px; border-radius: 8px; }

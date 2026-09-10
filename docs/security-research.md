@@ -33,3 +33,5 @@ Evaluating SecurityFilterChain and BCryptPasswordEncoder for VAMS.
 - Verified that URL tampering cannot elevate guest session to manager.
 
 - CSP header added to prevent inline script execution.
+
+- Remember-me configured with 7-day token persistence.

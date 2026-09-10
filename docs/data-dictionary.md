@@ -75,3 +75,5 @@ High-volume audit trail of every physical barcode scan attempt.
 - SystemLog captures manager_id, action (APPROVE/REJECT), target_user_id.
 
 - Added derived count query on ScanLog to determine current premise occupancy.
+
+- ScanLog records user_id, gate_id, scan_type, scan_time, and success_status.

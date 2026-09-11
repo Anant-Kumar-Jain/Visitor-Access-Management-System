@@ -30,3 +30,5 @@ Mapping 1:N relations between Users and AccessRequests.
 - DataInitializer checks userRepository.count() to ensure idempotency.
 
 - REST API returns { success: true/false, message: str, userName: str }
+
+- Added indexed sorting on scan_time DESC to support infinite scroll.

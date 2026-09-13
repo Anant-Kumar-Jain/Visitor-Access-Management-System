@@ -356,3 +356,5 @@ a:hover {
 
 /* Audit Filter Bar */
 .audit-filter-bar { background: #f1f5f9; padding: 12px; border-radius: 8px; }
+
+@media print { .today-guestbook { width: 100%; border-collapse: collapse; } }

@@ -358,3 +358,7 @@ a:hover {
 .audit-filter-bar { background: #f1f5f9; padding: 12px; border-radius: 8px; }
 
 @media print { .today-guestbook { width: 100%; border-collapse: collapse; } }
+
+/* Final UI Polish */
+.table-hover tbody tr:hover { background-color: rgba(59, 130, 246, 0.05); }
+.badge { font-weight: 500; letter-spacing: 0.025em; }

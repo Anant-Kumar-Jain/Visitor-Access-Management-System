@@ -37,3 +37,5 @@ Evaluating SecurityFilterChain and BCryptPasswordEncoder for VAMS.
 - Remember-me configured with 7-day token persistence.
 
 - 100% of state-changing POST forms verified with CSRF tokens.
+
+- Passes automatically invalidated immediately upon EXIT scan completion.

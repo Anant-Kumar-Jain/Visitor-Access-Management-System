@@ -21,3 +21,5 @@
 - Concurrency control configured to prevent simultaneous admin logins.
 
 - Session timeout configured to 30 minutes with graceful redirect.
+
+- Custom 403 Forbidden and 404 Not Found error mapping verified.

@@ -39,3 +39,5 @@ Evaluating SecurityFilterChain and BCryptPasswordEncoder for VAMS.
 - 100% of state-changing POST forms verified with CSRF tokens.
 
 - Passes automatically invalidated immediately upon EXIT scan completion.
+
+- Password change endpoint validates existing password with passwordEncoder.matches().

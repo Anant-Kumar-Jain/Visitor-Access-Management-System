@@ -362,3 +362,5 @@ a:hover {
 /* Final UI Polish */
 .table-hover tbody tr:hover { background-color: rgba(59, 130, 246, 0.05); }
 .badge { font-weight: 500; letter-spacing: 0.025em; }
+
+.form-control:focus { border-color: #3b82f6; box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25); }

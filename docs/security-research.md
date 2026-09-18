@@ -41,3 +41,5 @@ Evaluating SecurityFilterChain and BCryptPasswordEncoder for VAMS.
 - Passes automatically invalidated immediately upon EXIT scan completion.
 
 - Password change endpoint validates existing password with passwordEncoder.matches().
+
+- Session ID migrated upon login to prevent session hijacking.

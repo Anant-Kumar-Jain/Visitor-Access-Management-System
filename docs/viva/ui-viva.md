@@ -24,3 +24,5 @@ We utilized a mobile-first responsive strategy built on Bootstrap 5's 12-column 
 - **Fluid Layouts:** Card containers flex to 100% width on viewports `< 576px` and max `450px` on desktop viewports.
 - **Touch Targets:** Buttons on mobile scanner views are sized at a minimum of `48px` with `-webkit-tap-highlight-color: transparent` for reliable tactile feedback.
 - **Print Media Queries:** Specialized `@media print` rules strip backgrounds and headers to print clean physical paper passes.
+
+- Q: How does scanner work? A: HTML5 navigator.mediaDevices.getUserMedia() streams to video canvas.

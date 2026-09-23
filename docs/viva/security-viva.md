@@ -35,3 +35,5 @@ Every QR code payload contains:
 3. `validUntil`: Epoch expiration timestamp.
 4. `signature`: HMAC-SHA256 digital signature.
 The scanner validates that `currentTime <= validUntil`. Once an `EXIT` scan occurs or the time expires, the pass status updates to `EXPIRED` or `COMPLETED`, rendering copied photos or duplicated tokens invalid.
+
+- Q: Why BCrypt? A: Adaptive work factor prevents GPU brute-force attacks.

@@ -23,3 +23,5 @@ Audit tables grow rapidly in physical access systems. We indexed:
 1. `users(email)`: Unique B-Tree index for instantaneous authentication lookup.
 2. `scan_logs(user_id, scan_time DESC)`: Composite index for fast pass-history queries.
 3. `scan_logs(gate_id, scan_time)`: Composite index for daily occupancy and gate traffic analytics.
+
+- Q: How to avoid double entry? A: Database transaction with pessimistic write lock.

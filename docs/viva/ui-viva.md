@@ -26,3 +26,5 @@ We utilized a mobile-first responsive strategy built on Bootstrap 5's 12-column 
 - **Print Media Queries:** Specialized `@media print` rules strip backgrounds and headers to print clean physical paper passes.
 
 - Q: How does scanner work? A: HTML5 navigator.mediaDevices.getUserMedia() streams to video canvas.
+
+- Q: How is responsive layout handled? A: Mobile-first grid with Bootstrap breakpoints.

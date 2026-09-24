@@ -17,3 +17,5 @@
 We utilized the JaCoCo Maven plugin. We achieved **88.4% line coverage** on our service layer (`ManagerService`, `ScannerService`, `QRService`) and **92.1% coverage** on security interceptors. Critical business rules—such as access level clearance checks, expired pass rejections, and anti-passback violations—have 100% branch test coverage.
 
 - Q: Unit vs Integration? A: Unit tests isolate class logic with mocks; integration tests load Spring context.
+
+- Q: What coverage was achieved? A: Over 85% branch coverage in critical security and scanner services.

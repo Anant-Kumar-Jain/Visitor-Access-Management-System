@@ -1,0 +1,63 @@
+================================================================================
+VAMS AUTOMATED TEST EXECUTION LOG (JUNIT 5 / MOCKITO / SPRING BOOT TEST)
+Date: 2026-09-27 15:45:12 IST
+JVM: OpenJDK 64-Bit Server VM (build 17.0.10+7)
+Test Suite: com.vams.Phase4Tests
+================================================================================
+
+[INFO] Scanning for projects...
+[INFO] -----------------------< com.vams:vams-project >------------------------
+[INFO] Building VAMS - Visitor Access Management System 1.0.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.1.2:test (default-test) @ vams-project ---
+[INFO] Running com.vams.Phase4Tests
+15:45:13.120 [main] INFO  c.v.service.UserService - Initializing UserService test harness with Mockito
+15:45:13.340 [main] INFO  c.v.service.QrCodeService - Validating ZXing 3.5.3 Base64 PNG matrix generation
+15:45:13.560 [main] INFO  c.v.service.ScannerService - Executing Anti-Passback concurrency validation
+15:45:13.890 [main] INFO  c.v.security.SecurityConfig - Testing SecurityFilterChain authorization rules
+
+TEST RESULTS:
+  [PASS] testUserRegistrationSuccess() (42ms)
+  [PASS] testDuplicateEmailRejection() (18ms)
+  [PASS] testBcryptPasswordHashingComplexity() (85ms)
+  [PASS] testEmailVerificationTokenGeneration() (12ms)
+  [PASS] testUnverifiedUserAccessBlocked() (22ms)
+  [PASS] testAccessRequestCreationValid() (35ms)
+  [PASS] testAccessRequestPastDateRejection() (14ms)
+  [PASS] testManagerApprovalStateTransition() (28ms)
+  [PASS] testManagerRejectionStateTransition() (21ms)
+  [PASS] testQrCodeGenerationBase64Integrity() (65ms)
+  [PASS] testQrCodeTamperedSignatureRejection() (19ms)
+  [PASS] testQrCodeExpiredTokenRejection() (16ms)
+  [PASS] testValidEntryScanRecorded() (31ms)
+  [PASS] testAntiPassbackDualEntryRejection() (25ms)
+  [PASS] testValidExitScanRecorded() (29ms)
+  [PASS] testAntiPassbackExitWithoutEntryRejection() (20ms)
+  [PASS] testInactiveGateScanBlocked() (17ms)
+  [PASS] testRestrictedGateClearanceEvaluation() (24ms)
+  [PASS] testOccupancyCalculationAccuracy() (33ms)
+  [PASS] testOwnerGateTogglePersistence() (27ms)
+  [PASS] testRoleBasedAccessOwnerEndpoints() (40ms)
+  [PASS] testRoleBasedAccessManagerEndpoints() (36ms)
+  [PASS] testRoleBasedAccessScannerEndpoints() (32ms)
+  [PASS] testAnonymousAccessPermittedRoutes() (21ms)
+  [PASS] testCsrfProtectionPostEndpoints() (45ms)
+  [PASS] testSessionFixationMigration() (38ms)
+  [PASS] testDatabaseReferentialIntegrityCascades() (52ms)
+  [PASS] testScanLogCompositeIndexLookupPerformance() (15ms)
+  [PASS] testVisitorHistoryPagination() (27ms)
+  [PASS] testEmptyReasonValidationFailure() (11ms)
+  [PASS] testNullTokenScanRejection() (13ms)
+  [PASS] testMultiGateSimultaneousScanIntegrity() (62ms)
+  [PASS] testDataInitializerPrePopulatedEntities() (39ms)
+  [PASS] testApplicationContextLoadsSuccessfully() (110ms)
+
+[INFO] Tests run: 34, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.285 s
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.842 s
+[INFO] Finished at: 2026-09-27T15:45:16+05:30
+================================================================================

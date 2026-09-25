@@ -25,3 +25,5 @@ Audit tables grow rapidly in physical access systems. We indexed:
 3. `scan_logs(gate_id, scan_time)`: Composite index for daily occupancy and gate traffic analytics.
 
 - Q: How to avoid double entry? A: Database transaction with pessimistic write lock.
+
+- Q: How are QR codes served? A: Generated in-memory as Base64 PNGs without disk I/O.

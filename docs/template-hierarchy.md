@@ -18,9 +18,3 @@ templates/
   ├── scanner/scan.html (Guard WebRTC camera scanner)
   └── owner/dashboard.html (Administrative occupancy & gates)
 ```
-
-- Navbar: Logo, Role Badge, Notifications, User Dropdown, Logout.
-
-- Added client-side download QR button using html5 download attribute.
-
-- scan-result displays visitor profile card with green/red verification icon.

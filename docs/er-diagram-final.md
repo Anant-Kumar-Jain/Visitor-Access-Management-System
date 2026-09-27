@@ -9,7 +9,3 @@
 - `AccessRequest (1) ── (N) ScanLog`: One approved pass produces multiple transit scan records (ENTRY, EXIT).
 - `Gate (1) ── (N) ScanLog`: One physical checkpoint logs thousands of visitor transit events.
 - `AccessRequest (N) ── (M) Gate`: Many-to-many relationship mapped via `GatePermission` bridge entity.
-
-- Gate: name (varchar 100, not null), location (varchar 255).
-
-- ScanLog createdAt auto-populated using LocalDateTime.now().

@@ -10,7 +10,3 @@
 - `Gate`: Represents physical access points with `gateName`, `location`, `accessLevel`, `active`.
 - `ScanLog`: Represents audit events with `request`, `gate`, `scannedBy`, `scanType`, `scanTime`.
 - `GatePermission`: Associates access requests with permitted gates.
-
-- Documented all enum values and security authority bindings.
-
-- Javadoc added for CustomUserDetails and CustomUserDetailsService.

@@ -17,5 +17,3 @@ VAMS defines two fundamental access clearance levels:
    - **Permitted Users:** Authorized personnel, executive management, and specifically escorted contractors.
    - **Associated Zones:** Data Center / Server Vault, High-Voltage Substation, Executive Boardrooms, R&D Laboratories.
    - **Verification Requirement:** Explicit clearance authorization granted by Facility Manager upon pass application.
-
-- User AccessLevel ordinal must be >= Gate required AccessLevel.

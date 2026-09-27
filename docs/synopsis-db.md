@@ -18,7 +18,3 @@ The Visitor Access Management System (VAMS) replaces inefficient and vulnerable 
 2. Implement strict role segregation across Facility Owners, Managers, Security Guards, and Visitors.
 3. Enforce physical access security policies including real-time anti-passback rule validation.
 4. Deliver high-speed scanning performance with sub-200ms verification latency.
-
-- Isolation: READ_COMMITTED to prevent dirty reads during scan verification.
-
-- @Transactional ensures ScanLog is written even if gate hardware triggers error.
